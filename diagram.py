@@ -1,17 +1,24 @@
 import numpy as np 
 import matplotlib.pyplot as plt
 
-x= np.array([1,2,3,5])
-y = np.array([1,3,2,6])
-plt.title('1')
-plt.subplot(1,2,1)
+x = np.array([1,7,4,71])
+y = np.array([1,11,2,118])
+plt.title('6')
+plt.subplot(2,3,1)
 plt.plot(x,y)
 
-x = np.array([1,2,3,4])
-y = np.array([1,5,2,17])
-plt.title('2')
-plt.subplot(1,2,2)
+x = np.array([1,5,9,10])
+y = np.array([1,6,4,14])
+plt.subplot(2,3,2)
+plt.title('19')
 plt.plot(x,y)
 
-plt.suptitle("TWIX")
+plt.suptitle('new branch')
 plt.show()
+
+
+
+
+
+
+
